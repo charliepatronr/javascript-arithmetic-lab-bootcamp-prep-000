@@ -26,13 +26,7 @@ function dec(n){
 }
 
 function makeInt(n){
-  return pars
+  return parseInt(n, 10);
 }
 
-//   7) makeInt(n) parses n as an integer and returns the parsed integer:
-//      ReferenceError: makeInt is not defined
-//       at Context.<anonymous> (test/index-test.js:34:5)
 
-//   8) makeInt(n) assumes base 10:
-//      ReferenceError: makeInt is not defined
-//       at Context.<anonymous> (test/index-test.js:38:5)
